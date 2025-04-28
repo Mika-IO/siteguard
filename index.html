@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SiteGuard – Website Vulnerability Scan for $10</title>
+
+  <!-- Tailwind CSS with modern plugins -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+  
+  <!-- Modern icon library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+  <!-- Modern fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500&display=swap" rel="stylesheet">
+  <style>
+    :root { font-family: 'Satoshi', system-ui, sans-serif; }
+    .sketch { font-family: 'Comic Neue', cursive; }
+    .animate-float { animation: float 3s ease-in-out infinite; }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body class="bg-neutral-900 text-neutral-100 antialiased">
+
+  <!-- ▸ Navigation -->
+  <header class="border-b border-neutral-800">
+    <nav class="max-w-7xl mx-auto px-4 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+        </svg>
+        <span class="text-xl font-bold">SiteGuard</span>
+      </div>
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#how-it-works" class="text-sm font-medium hover:text-emerald-400 transition-colors">How It Works</a>
+        <a href="#pricing" class="text-sm font-medium hover:text-emerald-400 transition-colors">Pricing</a>
+        <a href="#faq" class="text-sm font-medium hover:text-emerald-400 transition-colors">FAQ</a>
+      </div>
+      <a href="#cta" class="bg-emerald-600 hover:bg-emerald-700 px-5 py-2.5 rounded-lg font-medium text-sm transition-colors">
+        Get Started
+      </a>
+    </nav>
+  </header>
+
+  <!-- ▸ Hero Section -->
+  <main class="max-w-7xl mx-auto px-4 lg:px-8 py-24">
+    <div class="text-center space-y-8 max-w-3xl mx-auto">
+      <h1 class="text-5xl md:text-6xl font-bold tracking-tight">
+        Secure Your Website in Minutes
+        <span class="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">for Just $9.99</span>
+      </h1>
+      <p class="text-xl text-neutral-400 md:text-2xl md:leading-relaxed">
+        Professional vulnerability scanning with comprehensive reports delivered straight to your inbox
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#cta" class="bg-emerald-600 hover:bg-emerald-700 px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
+          Start Security Scan
+        </a>
+        <a href="#how-it-works" class="border border-neutral-800 hover:border-neutral-700 px-8 py-4 rounded-xl font-semibold text-lg transition-colors">
+          How It Works
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ▸ How It Works -->
+  <section id="how-it-works" class="bg-neutral-800/30 py-24">
+    <div class="max-w-7xl mx-auto px-4 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-20">
+        <h2 class="text-4xl font-bold mb-6">Simple 3-Step Process</h2>
+        <p class="text-neutral-400 text-lg">Get actionable security insights in under 24 hours</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-12 text-center">
+        <div class="space-y-6">
+          <div class="w-20 h-20 bg-neutral-700/50 rounded-2xl flex items-center justify-center mx-auto animate-float">
+            <i class="ti ti-world text-3xl text-emerald-500"></i>
+          </div>
+          <h3 class="text-xl font-semibold">1. Submit Domain</h3>
+          <p class="text-neutral-400">Enter your website URL and contact email</p>
+        </div>
+        
+        <div class="space-y-6">
+          <div class="w-20 h-20 bg-neutral-700/50 rounded-2xl flex items-center justify-center mx-auto animate-float">
+            <i class="ti ti-credit-card text-3xl text-emerald-500"></i>
+          </div>
+          <h3 class="text-xl font-semibold">2. Secure Payment</h3>
+          <p class="text-neutral-400">Flat $9.99 fee via credit card or crypto</p>
+        </div>
+        
+        <div class="space-y-6">
+          <div class="w-20 h-20 bg-neutral-700/50 rounded-2xl flex items-center justify-center mx-auto animate-float">
+            <i class="ti ti-file-analytics text-3xl text-emerald-500"></i>
+          </div>
+          <h3 class="text-xl font-semibold">3. Get Report</h3>
+          <p class="text-neutral-400">Detailed PDF report within 24 hours</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ▸ Pricing -->
+  <section id="pricing" class="py-24">
+    <div class="max-w-7xl mx-auto px-4 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="text-4xl font-bold mb-6">Transparent Pricing</h2>
+        <p class="text-neutral-400">One-time payment with no hidden fees</p>
+      </div>
+      
+      <div class="bg-neutral-800/50 rounded-3xl p-8 md:p-12 max-w-2xl mx-auto shadow-xl">
+        <div class="text-center space-y-8">
+          <div class="space-y-4">
+            <span class="text-5xl font-bold">$10</span>
+            <p class="text-neutral-400">Per full website scan</p>
+          </div>
+          <ul class="space-y-4 text-left">
+            <li class="flex items-center space-x-3">
+              <i class="ti ti-check text-emerald-500"></i>
+              <span>OWASP Top 10 vulnerabilities</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="ti ti-check text-emerald-500"></i>
+              <span>100+ automated security checks</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="ti ti-check text-emerald-500"></i>
+              <span>Priority email support</span>
+            </li>
+          </ul>
+          <a href="#cta" class="inline-block w-full bg-emerald-600 hover:bg-emerald-700 py-4 rounded-xl font-semibold transition-colors">
+            Start Security Scan
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ▸ CTA Form -->
+  <section id="cta" class="bg-neutral-800/30 py-24">
+    <div class="max-w-xl mx-auto px-4 lg:px-8">
+      <div class="bg-neutral-900 rounded-2xl p-8 shadow-lg">
+        <div class="text-center mb-8">
+          <h3 class="text-2xl font-bold mb-4">Start Your Scan</h3>
+          <p class="text-neutral-400">Enter your website details below</p>
+        </div>
+        <form class="space-y-6">
+          <div>
+            <label class="block text-sm font-medium mb-2">Website URL</label>
+            <input type="url" required placeholder="https://yourwebsite.com" 
+                   class="w-full bg-neutral-800 border border-neutral-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-2">Email Address</label>
+            <input type="email" required placeholder="you@company.com" 
+                   class="w-full bg-neutral-800 border border-neutral-700 rounded-lg px-4 py-3 focus:ring-2 focus:ring-emerald-500 focus:border-transparent">
+          </div>
+          <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 py-4 rounded-lg font-semibold transition-colors">
+            Pay $9.99 & Start Scan
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ▸ Footer -->
+  <footer class="border-t border-neutral-800 py-12">
+    <div class="max-w-7xl mx-auto px-4 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+        <div class="flex items-center space-x-2 mb-4 md:mb-0">
+          <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+          </svg>
+          <span class="font-medium">SiteGuard</span>
+        </div>
+        <div class="text-neutral-400 text-sm">
+          © 2024 SiteGuard. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
